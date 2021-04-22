@@ -11,3 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="${nyancat}" />
     `
 })
+
+
+console.log(process.env.NODE_ENV)   // process.env.NODE_ENV => module.exports 의 mode 에 접근가능(개발환경/운영환경)
+console.log(TWO)    // 1+1
+console.log(api.domain)
